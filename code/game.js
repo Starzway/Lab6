@@ -53,9 +53,9 @@ function Coin(pos) {
 Coin.prototype.type = 'coin';
 
 function Heart(pos) {
-  this.basePos = this.pos = pos.plus(new Vector(0.3,0.3));
+  this.basePos = this.pos = pos.plus(new Vector(0.5,0.4));
   this.size = new Vector(0.4, 0.4);
-  this.wobble = Math.random() * Math.PI * 2;
+  this.wobble = Math.random() * Math.PI * 3;
 }
 Heart.prototype.type = 'heart';
 
